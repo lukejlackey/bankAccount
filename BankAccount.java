@@ -48,6 +48,11 @@ public class BankAccount {
         return result;
     }
 
+    public static double getNumberOfAccounts(){
+        return numberOfAccounts;
+    }
 
-
+    public static double getTotalFunds(){
+        return totalFunds;
+    }
 }

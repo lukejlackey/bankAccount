@@ -11,5 +11,7 @@ public class BankAccountTest {
         System.out.println(testAccount.editFunds("savings",-1000));
         System.out.println(testAccount.editFunds("checking",100));
         System.out.println(testAccount.editFunds("savings",25));
+        System.out.println(BankAccount.getNumberOfAccounts());
+        System.out.println(BankAccount.getTotalFunds());
     }    
 }
